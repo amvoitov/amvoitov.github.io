@@ -1,5 +1,5 @@
 ---
-title: "Кейс 1: TODO"
+title: "Кейс 3: TODO"
 permalink: /projects/case_3/
 ---
 
