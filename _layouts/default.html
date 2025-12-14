@@ -52,9 +52,35 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer__inner">
-        <span>© {{ site.title }}</span>
-      </div>
+        <div class="container footer__inner">
+    {% assign contact_page = site.pages | where_exp: "p", "p.url == '/contact/'" | first %}
+
+    <span>© {{ site.title }}</span>
+
+    {% if contact_page %}
+      {% if contact_page.email %}
+        <span class="footer__sep">·</span>
+        <a href="mailto:{{ contact_page.email }}">{{ contact_page.email }}</a>
+      {% endif %}
+
+      {% if contact_page.telegram %}
+        {% assign tg = contact_page.telegram | remove: '@' %}
+        <span class="footer__sep">·</span>
+        <a href="https://t.me/{{ tg }}">@{{ tg }}</a>
+      {% endif %}
+
+      {% if contact_page.hh %}
+        <span class="footer__sep">·</span>
+        <a href="{{ contact_page.hh }}">HH</a>
+      {% endif %}
+
+      {% if contact_page.github %}
+        <span class="footer__sep">·</span>
+        <a href="{{ contact_page.github }}">GitHub</a>
+      {% endif %}
+    {% endif %}
+        </div>
     </footer>
+
   </body>
 </html>

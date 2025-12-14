@@ -282,3 +282,12 @@ hr{ border:0; border-top:1px solid var(--border); margin: 16px 0; }
 /* ================= Footer ================= */
 .footer{ padding: 18px 0 26px; color: var(--muted); }
 .footer__inner{ font-size: 12px; }
+
+.footer__inner{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+  font-size: 12px;
+}
+.footer__sep{ opacity:.5; }
