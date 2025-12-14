@@ -3,22 +3,27 @@ title: "Проекты"
 permalink: /projects/
 ---
 
-# Кейсы
+# Проекты
 
 <p class="text-muted mb-3">
-В каждом кейсе: контекст → цель → роль → действия → результат → артефакты.
+Ниже — кейсы. В каждом: контекст, требования, моя роль, ключевые действия, результат и артефакты.
 </p>
 
+<div class="row g-3">
+
+  <!-- CASE 1 -->
   <div class="col-12 col-lg-6">
     <div class="card shadow-sm h-100">
       <div class="card-body">
-        <div class="d-flex justify-content-between align-items-start gap-2">
-          <h3 class="h5 mb-1">Кейс 1: Весовая ЛИЛИАНИ</h3>
+        <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+          <h3 class="h5 mb-0">Кейс 1: Весовая ЛИЛИАНИ</h3>
           <span class="badge text-bg-light border">Embedded • Android • Portal</span>
         </div>
+
         <p class="text-muted mb-3">
           Блок обработки сигнала тензодатчика + Android (отображение/фильтрация/офлайн) + портал аналитики и телеметрии.
         </p>
+
         <div class="row g-2 mb-3">
           <div class="col-6 col-md-3">
             <div class="border rounded-3 p-2 h-100">
@@ -45,33 +50,60 @@ permalink: /projects/
             </div>
           </div>
         </div>
+
         <div class="d-flex flex-wrap gap-2">
           <a class="btn btn-primary btn-sm" href="{{ '/projects/case_1/' | relative_url }}">Открыть кейс</a>
-          <a class="btn btn-outline-secondary btn-sm" href="{{ '/projects/case_1/' | relative_url }}#artifacts">
-            Артефакты
-          </a>
+          <a class="btn btn-outline-secondary btn-sm" href="{{ '/projects/case_1/' | relative_url }}#artifacts">Артефакты</a>
         </div>
       </div>
     </div>
   </div>
 
-
+  <!-- CASE 2  -->
   <div class="col-12 col-lg-6">
-    <a class="site_card" href="{{ '/projects/case_2/' | relative_url }}">
-      <div class="site_card_title">Кейс 2: TODO</div>
-      <div class="site_card_meta">PM/PO • …</div>
-      <p class="site_card_text">Заполнится позже.</p>
-      <span class="tag">требования</span><span class="tag">данные</span><span class="tag">приёмка</span>
-    </a>
-  </div>
+    <div class="card shadow-sm h-100">
+      <div class="card-body">
+        <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+          <h3 class="h5 mb-0">Кейс 2: (заполним)</h3>
+          <span class="badge text-bg-light border">—</span>
+        </div>
 
-  <div class="col-12 col-lg-6">
-    <a class="site_card" href="{{ '/projects/case_3/' | relative_url }}">
-      <div class="site_card_title">Кейс 3: Весовая система бункера перегрузчика</div>
-      <div class="site_card_meta">PM/PO/аналитик • embedded + Android + портал</div>
-      <p class="site_card_text">Учёт урожая и расчёт оплаты. Эффект: −80% спорных, −70% потерь, +20% продажи.</p>
-      <span class="tag">MVP→серия</span><span class="tag">телеметрия</span><span class="tag">офлайн</span>
-    </a>
+        <p class="text-muted mb-3">
+          Добавим описание после твоих ответов (без придуманных деталей).
+        </p>
+
+        <div class="row g-2 mb-3">
+          <div class="col-6 col-md-3">
+            <div class="border rounded-3 p-2 h-100">
+              <div class="text-muted small">Роль</div>
+              <div class="fw-semibold small">—</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded-3 p-2 h-100">
+              <div class="text-muted small">Период</div>
+              <div class="fw-semibold small">—</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded-3 p-2 h-100">
+              <div class="text-muted small">Команда</div>
+              <div class="fw-semibold small">—</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="border rounded-3 p-2 h-100">
+              <div class="text-muted small">Эффект</div>
+              <div class="fw-semibold small">—</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2">
+          <a class="btn btn-outline-secondary btn-sm disabled" href="#" tabindex="-1" aria-disabled="true">Открыть кейс</a>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
