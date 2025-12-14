@@ -2,7 +2,7 @@
 title: "Кейс 2: Название проекта"
 ---
 
-{% include nav.html %}
+
 
 <a class="btn" href="{{ '/projects' | relative_url }}">← Назад к проектам</a>
 

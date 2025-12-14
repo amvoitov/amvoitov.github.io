@@ -2,7 +2,7 @@
 title: "Кейс 1: Настройка управления проектом в Tracker/Wiki (NDA)"
 ---
 
-{% include nav.html %}
+
 
 <a class="btn" href="{{ '/projects' | relative_url }}">← Назад к проектам</a>
 

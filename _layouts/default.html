@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <div class="brand">
+          <div class="brand__title">{{ site.title }}</div>
+          <div class="brand__sub">{{ site.description }}</div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav__link" href="{{ '/' | relative_url }}">Главная</a>
+          <a class="nav__link" href="{{ '/projects' | relative_url }}">Проекты</a>
+          <a class="nav__link" href="{{ '/about' | relative_url }}">Обо мне</a>
+          <a class="nav__link" href="{{ '/contact' | relative_url }}">Контакты</a>
+          <a class="nav__btn" href="{{ '/assets/files/portfolio.pdf' | relative_url }}">PDF</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container main">
+      <article class="content">
+        {{ content }}
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span>© {{ site.title }}</span>
+      </div>
+    </footer>
+  </body>
+</html>
