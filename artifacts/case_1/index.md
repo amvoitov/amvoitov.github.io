@@ -54,8 +54,6 @@ permalink: /artifacts/case_1/
   </div>
 </div>
 
-
-
   <!-- Artifact 3 -->
   <div class="col-12 col-md-6 col-lg-4">
   <div class="card h-100 shadow-sm">
@@ -81,7 +79,32 @@ permalink: /artifacts/case_1/
   </div>
 </div>
 
-<!-- Artifact 4 -->
+    <!-- Artifact 4 -->
+
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+                <div class="d-flex align-items-start justify-content-between gap-2">
+                    <h3 class="h6 mb-1">Артефакт 4</h3>
+                    <span class="badge text-bg-light border">Roadmap</span>
+                </div>
+
+                <div class="fw-semibold mb-2">Компоненты системы</div>
+
+                <p class="text-secondary small mb-3">
+                    Android (планшет), Web (ЛК/админка), Employee App, Backend/данные, Hardware/интеграции.
+                </p>
+
+                <div class="mt-auto d-flex gap-2">
+                    <a class="btn btn-primary btn-sm"
+                    href="{{ '/artifacts/case_1/artifact_4/' | relative_url }}">
+                    Открыть
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 <!-- End Artifact -->
 
