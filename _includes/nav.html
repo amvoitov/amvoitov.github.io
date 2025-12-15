@@ -1,0 +1,42 @@
+{% assign u = page.url %}
+
+<nav class="d-flex align-items-center justify-content-between gap-3 flex-wrap">
+  <div class="d-flex align-items-baseline gap-3">
+    <a class="text-decoration-none fw-semibold fs-5 text-body" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% if site.description %}
+      <span class="text-muted small">{{ site.description }}</span>
+    {% endif %}
+  </div>
+
+  <div class="d-flex align-items-center gap-2 flex-wrap">
+    <a class="btn btn-sm {% if u == '/' %}btn-primary{% else %}btn-outline-primary{% endif %}"
+       href="{{ '/' | relative_url }}">Главная</a>
+
+    <a class="btn btn-sm {% if u contains '/projects' %}btn-primary{% else %}btn-outline-primary{% endif %}"
+       href="{{ '/projects/' | relative_url }}">Кейсы</a>
+
+    <a class="btn btn-sm {% if u contains '/about' %}btn-primary{% else %}btn-outline-primary{% endif %}"
+       href="{{ '/about/' | relative_url }}">Обо мне</a>
+
+    <a class="btn btn-sm {% if u contains '/contact' %}btn-primary{% else %}btn-outline-primary{% endif %}"
+       href="{{ '/contact/' | relative_url }}">Контакты</a>
+
+    <div class="dropdown">
+      <button class="btn btn-sm btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Скачать
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li>
+          <a class="dropdown-item" href="{{ '/assets/files/portfolio.pdf' | relative_url }}" target="_blank" rel="noopener">
+            Скачать портфолио (PDF)
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="{{ '/assets/files/resume.pdf' | relative_url }}" target="_blank" rel="noopener">
+            Скачать резюме (PDF)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

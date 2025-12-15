@@ -1,0 +1,18 @@
+{% assign contact_page = site.pages | where: "permalink", "/contact/" | first %}
+{% assign c = contact_page.contacts %}
+
+<div class="small text-muted">
+  © {{ site.title }}
+  {% if c %}
+    · <a href="mailto:{{ c.email }}">{{ c.email }}</a>
+    {% if c.telegram_url and c.telegram %}
+      · <a href="{{ c.telegram_url }}" target="_blank" rel="noopener">{{ c.telegram }}</a>
+    {% endif %}
+    {% if c.hh_url %}
+      · <a href="{{ c.hh_url }}" target="_blank" rel="noopener">HH</a>
+    {% endif %}
+    {% if c.phone_url and c.phone %}
+      · <a href="{{ c.phone_url }}">{{ c.phone }}</a>
+    {% endif %}
+  {% endif %}
+</div>
