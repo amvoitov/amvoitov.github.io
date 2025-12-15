@@ -88,3 +88,44 @@ body{
   word-break: normal;
   overflow-wrap: anywhere;
 }
+/* === Layout tweaks for wide screens === */
+.container-portfolio {
+  max-width: 1440px;
+}
+@media (min-width: 1600px) {
+  .container-portfolio { max-width: 1520px; }
+}
+
+/* Cards */
+.page-card { border-radius: 18px; }
+
+/* Case layout */
+.case-sticky {
+  position: sticky;
+  top: 96px; /* под высоту шапки */
+}
+@media (max-width: 991.98px) {
+  .case-sticky { position: static; top: auto; }
+}
+
+.metric-card{
+  border: 1px solid rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 14px;
+  padding: .75rem;
+}
+.metric-label{
+  font-size: .82rem;
+  color: #6c757d;
+  margin-bottom: .25rem;
+}
+.metric-value{
+  font-weight: 600;
+  line-height: 1.25;
+  word-break: normal;      /* не ломаем слова */
+  overflow-wrap: normal;   /* не превращаем в "мобилку" */
+}
+
+.case-content h2 { margin-top: 1.75rem; }
+.case-content h3 { margin-top: 1.25rem; }
+.case-content ul { margin-bottom: 1rem; }

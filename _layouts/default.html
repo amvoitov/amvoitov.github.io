@@ -1,30 +1,36 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% include head-custom.html %}
-  </head>
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
 
-  <body>
-    {% include nav.html %}
+  <!-- Bootstrap (local) -->
+  <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap_5_3_8/css/bootstrap.min.css' | relative_url }}">
 
-    <main class="py-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-10 col-xl-9">
-            <div class="card shadow-sm rounded-4">
-              <div class="card-body p-4 p-md-5">
-                {{ content }}
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- Your site styles (after Bootstrap) -->
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+
+  <!-- Any extra tags/scripts/icons you keep here -->
+  {% include head-custom.html %}
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column min-vh-100">
+
+  {% include nav.html %}
+
+  <main id="main" class="flex-grow-1 py-4">
+    <div class="container container-portfolio px-3 px-lg-4">
+      <div class="page-shell">
+        {{ content }}
       </div>
-    </main>
+    </div>
+  </main>
 
-    {% include footer.html %}
-  </body>
+  {% include footer.html %}
+
+  <script src="{{ '/assets/vendor/bootstrap_5_3_8/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+</body>
 </html>
