@@ -11,6 +11,7 @@ permalink: /projects/
 </div>
 
 <div class="row g-4 align-items-stretch">
+
   <!-- CASE 1 -->
   <div class="col-12 col-xl-6">
     <div class="card h-100 shadow-sm rounded-4">
@@ -30,7 +31,6 @@ permalink: /projects/
           Блок обработки сигнала тензодатчика + Android (отображение/фильтрация/офлайн) + портал аналитики и телеметрии.
         </p>
 
-        <!-- meta grid: 2x2 always (no “мобилка на десктопе”) -->
         <div class="row g-2">
           <div class="col-12 col-md-6">
             <div class="border rounded-4 p-3 h-100">
@@ -66,7 +66,6 @@ permalink: /projects/
           </div>
         </div>
 
-        <!-- buttons pinned to bottom, same level across cards -->
         <div class="d-flex flex-wrap gap-2 mt-auto pt-3">
           <a class="btn btn-primary" href="{{ '/projects/case_1/' | relative_url }}">Открыть кейс</a>
           <a class="btn btn-outline-secondary" href="{{ '/artifacts/case_1/' | relative_url }}">Артефакты</a>
@@ -94,7 +93,8 @@ permalink: /projects/
         </div>
 
         <p class="text-secondary mb-3">
-          Оптимизация и автоматизация планирования уборочной кампании + расчёт маршрутов техники на поле для ускорения уборки и снижения простоев.
+          Оптимизация и автоматизация планирования уборочной кампании + расчёт маршрутов техники на поле
+          для ускорения уборки и снижения простоев.
         </p>
 
         <div class="row g-2">
@@ -141,72 +141,72 @@ permalink: /projects/
         </div>
       </div>
     </div>
+  </div>
 
   <!-- CASE 3 -->
-    <div class="col-12 col-xl-6">
-      <div class="card h-100 shadow-sm rounded-4">
-        <div class="card-body p-4 d-flex flex-column">
-          <div class="d-flex align-items-start justify-content-between gap-3 mb-2">
-            <div>
-              <h2 class="h4 fw-bold mb-2">Универсальная самоходная платформа с модулем опрыскивания</h2>
-              <div class="d-flex flex-wrap gap-2">
-                <span class="badge text-bg-light border">Robotics</span>
-                <span class="badge text-bg-light border">Spraying</span>
-                <span class="badge text-bg-light border">RTK</span>
-                <span class="badge text-bg-light border">Autopilot</span>
-                <span class="badge text-bg-light border">Hybrid</span>
-                <span class="badge text-bg-light border">Tracked</span>
-              </div>
+  <div class="col-12 col-xl-6">
+    <div class="card h-100 shadow-sm rounded-4">
+      <div class="card-body p-4 d-flex flex-column">
+        <div class="d-flex align-items-start justify-content-between gap-3 mb-2">
+          <div>
+            <h2 class="h4 fw-bold mb-2">Универсальная самоходная платформа с модулем опрыскивания</h2>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge text-bg-light border">Robotics</span>
+              <span class="badge text-bg-light border">Spraying</span>
+              <span class="badge text-bg-light border">RTK</span>
+              <span class="badge text-bg-light border">Autopilot</span>
+              <span class="badge text-bg-light border">Hybrid</span>
+              <span class="badge text-bg-light border">Tracked</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-secondary mb-3">
+          Гусеничная платформа с гибридным приводом и модулем опрыскивания для работы в виноградниках и садах.
+          Управление: ручной / маршрут на карте / автопилот (испытания).
+        </p>
+
+        <div class="row g-2">
+          <div class="col-12 col-md-6">
+            <div class="border rounded-4 p-3 h-100">
+              <div class="text-secondary small mb-1">Роль</div>
+              <div class="fw-semibold small">PM / PO / аналитик / архитектор / техлид</div>
             </div>
           </div>
 
-          <p class="text-secondary mb-3">
-            Гусеничная платформа с гибридным приводом и модулем опрыскивания для работы в виноградниках и садах.
-            Управление: ручной / маршрут на карте / автопилот (испытания).
-          </p>
-
-          <div class="row g-2">
-            <div class="col-12 col-md-6">
-              <div class="border rounded-4 p-3 h-100">
-                <div class="text-secondary small mb-1">Роль</div>
-                <div class="fw-semibold small">PM / PO / аналитик / архитектор / техлид</div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6">
-              <div class="border rounded-4 p-3 h-100">
-                <div class="text-secondary small mb-1">Период</div>
-                <div class="fw-semibold small">08.2025 → н.в. (испытания)</div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6">
-              <div class="border rounded-4 p-3 h-100">
-                <div class="text-secondary small mb-1">Метрики</div>
-                <ul class="small mb-0 ps-3">
-                  <li>1 га/час</li>
-                  <li>10 часов</li>
-                  <li>1–10 км/ч</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6">
-              <div class="border rounded-4 p-3 h-100">
-                <div class="text-secondary small mb-1">Пользователи</div>
-                <div class="fw-semibold small">механизатор / агроном / инженер</div>
-                <div class="text-muted small">виноградники, сады</div>
-              </div>
+          <div class="col-12 col-md-6">
+            <div class="border rounded-4 p-3 h-100">
+              <div class="text-secondary small mb-1">Период</div>
+              <div class="fw-semibold small">08.2025 → н.в. (испытания)</div>
             </div>
           </div>
 
-          <div class="d-flex flex-wrap gap-2 mt-auto pt-3">
-            <a class="btn btn-primary" href="{{ '/projects/case_3/' | relative_url }}">Открыть кейс</a>
-            <a class="btn btn-outline-secondary" href="{{ '/artifacts/case_3/' | relative_url }}">Артефакты</a>
+          <div class="col-12 col-md-6">
+            <div class="border rounded-4 p-3 h-100">
+              <div class="text-secondary small mb-1">Метрики</div>
+              <ul class="small mb-0 ps-3">
+                <li>1 га/час</li>
+                <li>10 часов</li>
+                <li>1–10 км/ч</li>
+              </ul>
+            </div>
           </div>
+
+          <div class="col-12 col-md-6">
+            <div class="border rounded-4 p-3 h-100">
+              <div class="text-secondary small mb-1">Пользователи</div>
+              <div class="fw-semibold small">механизатор / агроном / инженер</div>
+              <div class="text-muted small">виноградники, сады</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-wrap gap-2 mt-auto pt-3">
+          <a class="btn btn-primary" href="{{ '/projects/case_3/' | relative_url }}">Открыть кейс</a>
+          <a class="btn btn-outline-secondary" href="{{ '/artifacts/case_3/' | relative_url }}">Артефакты</a>
         </div>
       </div>
     </div>
-
   </div>
+
 </div>
