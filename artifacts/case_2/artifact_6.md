@@ -51,7 +51,7 @@ permalink: /artifacts/case_2/artifact_6/
   </div>
 </div>
 
-## 1) Сущности (таблица)
+## 1 Сущности (таблица)
 <div class="card border shadow-sm mb-4">
   <div class="card-body">
     <div class="table-responsive">
@@ -182,7 +182,7 @@ permalink: /artifacts/case_2/artifact_6/
   </div>
 </div>
 
-## 2) Ключевые связи (что к чему привязано)
+## 2 Ключевые связи (что к чему привязано)
 <div class="card border shadow-sm mb-4">
   <div class="card-body">
     <div class="table-responsive">
@@ -244,7 +244,7 @@ permalink: /artifacts/case_2/artifact_6/
   </div>
 </div>
 
-## 3) Контроли качества данных (гейты)
+## 3 Контроли качества данных (гейты)
 <div class="card border">
   <div class="card-body">
     <ul class="mb-0">
