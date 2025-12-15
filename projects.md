@@ -18,7 +18,7 @@ permalink: /projects/
       <div class="card-body p-4 d-flex flex-column">
         <div class="d-flex align-items-start justify-content-between gap-3 mb-2">
           <div>
-            <h2 class="h4 fw-bold mb-2">Весовая ЛИЛИАНИ</h2>
+            <h2 class="h4 fw-bold mb-2">Весовая бункера-перегрузчика для контроля убраного зерна</h2>
             <div class="d-flex flex-wrap gap-2">
               <span class="badge text-bg-light border">Embedded</span>
               <span class="badge text-bg-light border">Android</span>
