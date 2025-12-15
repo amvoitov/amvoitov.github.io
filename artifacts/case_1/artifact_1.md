@@ -81,8 +81,15 @@ permalink: /artifacts/case_1/artifact_1/
   - Для событийных пакетов требуется подтверждение приема; при отсутствии ack > 1000 мс — повтор, после 3 неудач — разрыв и повторное соединение.
 
 ## Сайт 
-<a https://test.ves.liliani.ru/> </a>
-<a https://test.ves.liliani.ru/> </a>
+
+<h2 class="h5 mt-4">Сайт</h2>
+<div class="d-flex flex-wrap gap-2">
+  <a class="btn btn-outline-primary"
+     href="https://test.ves.liliani.ru/"
+     target="_blank" rel="noopener">
+    Открыть стенд
+  </a>
+</div>
 
 ### Функциональные (личный кабинет партнеров/хозяйства)
 
