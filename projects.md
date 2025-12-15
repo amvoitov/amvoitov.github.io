@@ -80,7 +80,7 @@ permalink: /projects/
       <div class="card-body p-4 d-flex flex-column">
         <div class="d-flex align-items-start justify-content-between gap-3 mb-2">
           <div>
-            <h2 class="h4 fw-bold mb-2">Дирижёр</h2>
+            <h2 class="h4 fw-bold mb-2">SaaS-платформа планирования и конроля работ уборочной кампании</h2>
             <div class="d-flex flex-wrap gap-2">
               <span class="badge text-bg-light border">Planning</span>
               <span class="badge text-bg-light border">Routing</span>
