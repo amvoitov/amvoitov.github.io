@@ -131,6 +131,31 @@ permalink: /artifacts/case_1/
         </div>
     </div>
 
+<!-- Artifact 6 -->
+
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card h-100 shadow-sm">
+      <div class="card-body d-flex flex-column">
+        <div class="d-flex align-items-start justify-content-between gap-2">
+          <h3 class="h6 mb-1">Артефакт 6</h3>
+          <span class="badge text-bg-light border">Risks</span>
+        </div>
+
+        <div class="fw-semibold mb-2">Top-риски и меры</div>
+
+        <p class="text-secondary small mb-3">
+          Короткий реестр для портфолио PM/PO: риск → последствия → меры (offline, привязка, RFID, блокировка, протокол, adoption).
+        </p>
+
+        <div class="mt-auto">
+          <a class="btn btn-primary btn-sm"
+            href="{{ '/artifacts/case_1/artifact_6/' | relative_url }}">
+            Открыть
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- End Artifact -->
 
