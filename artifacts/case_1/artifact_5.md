@@ -97,6 +97,61 @@ permalink: /artifacts/case_1/artifact_5/
         <path class="arrow" d="M765,525 L810,525"></path>
       </svg>
     </div>
+
+     <h2 class="h5 mb-3">Зависимости (текстом)</h2>
+
+    <div class="row g-3">
+      <div class="col-12 col-lg-6">
+        <div class="card border h-100">
+          <div class="card-body">
+            <h3 class="h6">Привязка БП: Web ⇄ Android</h3>
+            <ul class="mb-0">
+              <li><b>Web “Привязка БП” ⇄ Android “Зарегистрировать/код”</b></li>
+              <li>Имя БВС + код</li>
+              <li>Оффлайн-сценарий</li>
+              <li>История регистраций</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="card border h-100">
+          <div class="card-body">
+            <h3 class="h6">Отчёты / рейтинг / статистика</h3>
+            <ul class="mb-0">
+              <li>Зависят от <b>заполненных справочников</b> (поля/техника/сотрудники)</li>
+              <li>И от <b>корректных данных операций</b> (тип/дата/время/GPS/идентификация)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="card border h-100">
+          <div class="card-body">
+            <h3 class="h6">Employee App</h3>
+            <ul class="mb-0">
+              <li>Зависит от наличия <b>учёток сотрудников</b> (логин/пароль)</li>
+              <li>И от <b>API выдачи чеков/календаря</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="card border h-100">
+          <div class="card-body">
+            <h3 class="h6">“Свой-Чужой”</h3>
+            <ul class="mb-0">
+              <li>Зависит от монтажа <b>RFID-антенн</b> и <b>реле блокировки шнека</b></li>
+              <li>И от правил: <b>“ближайшее ТС” / ручной режим</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   </div>
 </div>
 
