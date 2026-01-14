@@ -107,6 +107,7 @@ permalink: /
 
             <div class="d-flex flex-wrap gap-2">
               <span class="badge text-bg-light border">YouTrack</span>
+              <span class="badge text-bg-light border">EVA Team</span>
               <span class="badge text-bg-light border">YouGile</span>
               <span class="badge text-bg-light border">Wiki</span>
               <span class="badge text-bg-light border">Git (GitLab/GitHub)</span>
