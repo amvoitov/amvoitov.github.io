@@ -119,7 +119,8 @@ permalink: /
               <span class="badge text-bg-light border">CAN / J1939</span>
               <span class="badge text-bg-light border">ISOBUS</span>
               <span class="badge text-bg-light border">MQTT / HTTP</span>
-              <span class="badge text-bg-light border">GNSS + RTK</span>
+              <span class="badge text-bg-light border">GNSS (NMEA + RTK)</span>
+              
 
               <span class="badge text-bg-light border">Laravel</span>
               <span class="badge text-bg-light border">Vue.js</span>
